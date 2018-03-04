@@ -1,0 +1,114 @@
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+nav{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  padding: 0 10px;
+  margin: 0 10px;
+  display: inline;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all .4s ease;
+  border-radius: 10px;
+  outline: 0;
+}
+nav ul li:last-child{
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+}
+.logo{
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.hide{
+  display: none;
+}
+.list{
+  display: block;
+  margin-top:10px;
+}
+.list a{
+  text-decoration: none;
+  color:inherit;
+}
+.show{
+  display:block;
+  position: fixed;
+  right: 25px;
+  top:15px;
+  cursor: pointer;
+}
+.imgshow{
+  max-width: 30px;
+  vertical-align: middle;
+  display: inline;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all .5s ease;
+}
+.sticky{
+  background: white;
+  color:#3c7be0;
+  height:50px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: all .3s linear;
+  border-bottom: 1px solid rgba(0,0,0,.2)
+}
+.sticky nav ul li:last-child{
+  border: 1px solid #3c7be0;
+  padding: 3px;
+  border-radius: 10px;
+}
+.lol{
+  color:#3c7be0;
+}
+.navactive{
+  background: white;
+  color:#3c7be0;
+  transition: all .2s linear;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+}
+.navactive a{
+  color:#3c7be0;
+}
+.navactive img{
+  display: none;
+}
+.navactive ul{
+  display: block;
+  width: 100vw;
+  margin-top: 40px;
+  margin-left: -20px;
+}
+.navactive ul li{
+  display: block;
+  text-align: center;
+  margin-left: -50px;
+  color:#3c7be0;
+}
+.navactive ul li:last-child{
+  border:1px solid #3c7be0;
+  padding: 3px;
+}
+@media screen and (min-width:900px){
+  nav ul li:hover{
+    background-color: #2EE59D;
+  	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  	color: #fff;
+  	transform: translateY(-5px);
+  }
+}

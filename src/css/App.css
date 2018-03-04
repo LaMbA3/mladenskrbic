@@ -1,0 +1,26 @@
+
+/* @media screen and (max-height:800px) and (min-height:510px){
+  .background-img{
+    min-height: 110vh;
+  }
+}
+@media screen and (max-height:510px){
+  .background-img{
+    min-height: 120vh;
+  }
+}
+@media screen and (max-height:480px){
+  .background-img{
+    min-height: 150vh;
+  }
+}
+@media screen and (max-height:400px){
+  .background-img{
+    min-height: 180vh;
+  }
+}
+@media screen and (max-height:300px){
+  .background-img{
+    min-height: 200vh;
+  }
+} */

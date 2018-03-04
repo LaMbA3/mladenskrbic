@@ -5,3 +5,7 @@ To run it you need to:
 1. npm install 
 2. npm run build
 3. node server.js
+
+
+
+Created with create-react-app, and express 

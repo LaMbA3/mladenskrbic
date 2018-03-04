@@ -8,4 +8,4 @@ To run it you need to:
 
 
 
-Created with create-react-app, and express 
+Created with create-react-app

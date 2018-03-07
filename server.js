@@ -38,16 +38,16 @@ app.post('/send', (req, res) => {
      ciphers:'SSLv3'
   },
     auth: {
-        user: 'mladenskrbicLaMbA3@outlook.com', // generated ethereal user
-        pass: '**********'  // generated ethereal password
+        user: '', // generated ethereal user
+        pass: ''  // generated ethereal password
     }
   });
 
   // setup email data with unicode symbols
   let mailOptions = {
-      from: '"Portfolio" <mladenskrbicLaMbA3@outlook.com>', // sender address
-      to: 'mladenskrbicLaMbA3@gmail.com', // list of receivers
-      subject: 'job offer?', // Subject line
+      from: '', // sender address
+      to: '', // list of receivers
+      subject: '', // Subject line
       text: '', // plain text body
       html: output // html body
   };
